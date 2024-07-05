@@ -1,0 +1,501 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mandali&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.logo .text {
+  display: flex;
+  align-items: center;
+}
+
+.logo .text img.log {
+  margin-left: 60px;
+}
+
+.logo .text div.text-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.logo .text h2 {
+  font-size: 47px;
+  color: #225677;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.log {
+  width: 138px;
+  height: 130px;
+  position: relative;
+  left: 28px;
+  top: -8.43px;
+  mix-blend-mode: darken;
+}
+
+.after {
+  color: #8cacba;
+  font-size: 16px;
+  line-height: 18.57px;
+  letter-spacing: -0.15px;
+  font-weight: 400;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-links ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links ul li {
+  margin-right: 20px;
+  position: relative;
+  right: 30px;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #225677;
+  font-weight: 700;
+}
+.button {
+  margin-left: 25px;
+  padding: 14px;
+  width: 110px;
+  position: relative;
+  right: 35px;
+  font-size: 12px;
+  transition: all 0.5s;
+  border: none;
+  background: linear-gradient(to right, #054a68 0%, #52829c 100%);
+
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #0056b3;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.home {
+  padding: 30px 0;
+}
+.containerHome {
+  padding: 40px;
+  margin-left: 69px !important;
+  margin: 0 auto;
+}
+
+.homeP .containerHome {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page1 {
+  width: 823px;
+}
+
+.page1 h1 {
+  font-size: 56px;
+  line-height: 62px;
+  font-family: "plus jakarta sans", sans-serif;
+  color: #033348;
+  font-weight: 700;
+  padding-bottom: 20px;
+  letter-spacing: -0.58px;
+}
+
+.aim {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Mandali", sans-serif;
+  line-height: 20px;
+  color: #033348;
+  padding-bottom: 20px;
+}
+
+.butt {
+  background: linear-gradient(100.11deg, #054a68 0%, #52829c 100%);
+  padding: 14px, 20px;
+  width: 130px;
+  border-radius: 4px;
+  border: none;
+  height: 40px;
+  font-weight: 200;
+  font-family: "Plus jakara sans";
+  font-size: 15px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  outline: none;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.page1 img {
+  position: right;
+  bottom: 30px;
+}
+.Our {
+  padding: 30px 0 !important;
+}
+.Service h2 {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #033348;
+  font-weight: 800;
+}
+.grid {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  top: 80px;
+  justify-content: space-between;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 65vh;
+  margin-bottom: 60px;
+  width: 30%;
+  background-color: #054a68;
+  border-radius: 15px;
+  width: 300px;
+  background: linear-gradient(180deg, #054a68 0%, #52829c 100%);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.containergrid {
+  padding: 2px 16px;
+}
+.background {
+  background: linear-gradient(100.11deg, #054a68 0%, #52829c 100%);
+  height: 70em;
+}
+.babe {
+  margin-left: 13em;
+}
+.baby {
+  margin-right: 10em;
+}
+/* /* .containerAbout {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+  width: 60%;
+  margin: auto; */
+/* }
+.containerAbout h2 {
+  font-weight: 800;
+  padding-bottom: 30px;
+  color: #033348; */
+/* }
+/* .containerAbout p { */
+  /* text-align: justify; */
+  /* padding-bottom: 15px; */
+  /* line-height: 150% !important; */
+
+
+.about {
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+
+.about h2 {
+  color: #033348;
+  font-weight: 700;
+  font-size: 210%;
+  margin-bottom: 30px;
+}
+
+.about-content {
+  width: 1285px;
+  height: 428px;
+  margin: 0 auto;
+}
+
+.about-content p {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  text-align: justify;
+  opacity: 60%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.icon2 img {
+  width: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.butt2 {
+  width: 266px;
+  height: 62px;
+  padding: 14px 40px 15px 40px;
+  gap: 10px;
+  border-radius: 5px;
+  border: none;
+  opacity: 0px;
+  color: #fff;
+  font-family: "Nunito";
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: center;
+  background: #033348;
+}
+
+.cardhead {
+  color: #fff;
+  font-size: 15px;
+}
+.cardtext {
+  padding-bottom: 100px;
+  padding-top: 20px;
+  color: #fff;
+  font-size: small;
+}
+
+.footer {
+  background: linear-gradient(to right, #043f59 100%, #4f86a4 0%);
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.footer div {
+  max-width: 300px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer p,
+.footer li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .footer .contact,
+.footer .location,
+.footer .pages,
+.footer .features,
+.footer .follows {
+  flex: none;
+} */
+
+.footer .contact p,.footer .location p {
+  margin: 0 0 10px 0;
+}
+
+.footer .pages ul,.footer .features ul,.footer .follows ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .pages li,.footer .features li,.footer .follows li {
+  margin-bottom: 10px;
+}
+
+.footer .pages a,.footer .features a,.footer .follows a {
+  display: block;
+  color: #fff;
+}
+
+.footer .follows a i {
+  margin-right: 8px;
+}
+
+.copyright {
+  text-align: center;
+  /* padding-bottom: 20px; */
+  background: linear-gradient(to right, #043f59 100%, #4f86a4 0%);
+  color: #8CACBA;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 38.07px;
+}
+
+.footer .contact {
+  text-align: left;
+  margin-top: 30px;
+  font-family: Plus Jakarta Sans;
+  line-height: 27.63px;
+  text-align: left;
+  border-right: 2px solid #8CACBA;;
+  padding-right: 3rem;
+}
+
+.footer .contact h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.footer .contact p {
+  margin: 22px 0;
+  background-color: white;
+  color: #054561;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 39.13px;
+  text-align: left;
+
+}
+
+.footer .contact a {
+  font-size: 14px;
+  color: #8CACBA;
+  text-decoration: none;
+}
+
+.footer .contact a:hover {
+  text-decoration: underline;
+}
+
+.footer .location {
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.footer .location h3 {
+  font-family: Plus Jakarta Sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 27.63px;
+  text-align: left;
+
+}
+
+.footer .location p {
+  font-size: 14px;
+  color: #8CACBA;
+  line-height: 1.9rem;
+}
+
+.pages h3,
+.features h3,
+.follows h3 {
+  font-family: Plus Jakarta Sans;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 27.63px;
+  text-align: left;
+}
+
+.pages li,
+.features li,
+.follows li {
+  margin-left: 2rem;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.footer .pages h3,
+.footer .features h3,
+.footer .follows h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer .pages a,
+.footer .features a,
+.footer .follows a {
+  font-size: 14px;
+  font-weight: 200;
+  color: #8CACBA;
+  text-decoration: none;
+}
+
+.footer .pages a:hover,
+.footer .features a:hover,
+.footer .follows a:hover {
+  text-decoration: underline;
+}
+
+.footer .follows a i {
+  margin-right: 8px;
+}
